@@ -4,6 +4,8 @@
 Using the power of transfer learning, the model is built on the **[MobileNetV3]** architecture, pre-trained on over 15 million images.
 This allows the model to leverage existing patterns and features learned during its initial training. 
 
+https://www.kaggle.com/c/dog-breed-identification/data
+
 The **Dog Vision** model has been fine-tuned on a dataset of over 10,000 images spanning 120 dog breeds, enabling it to deliver highly accurate breed predictions.
 
 ## Key Features
@@ -33,21 +35,7 @@ The **Dog Vision** model has been fine-tuned on a dataset of over 10,000 images 
 
 ## Setup & Installation
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/YourUsername/Dog_Vision.git
-   ```
-
-2. **Install dependencies:**
-
-   You can install the required libraries via `pip`:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the model in Google Colab:**
+ **Run the model in Google Colab:**
 
    Upload the project files to Google Colab and execute the provided `notebook.ipynb` file to see the model in action.
 
